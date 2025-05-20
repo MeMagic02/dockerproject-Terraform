@@ -1,7 +1,14 @@
-# 🚀 DOCKER-ECS Project
+DOCKER-ECS Project
 
-This project deploys an NGINX container to AWS using ECS Fargate and ECR.
+My project deploys an NGINX web server using:
 
-## 📸 Screenshot (Proof of Deployment)
+AWS Elastic Container Registry (ECR)
+AWS Elastic Container Service (ECS Fargate)
+Application Load Balancer (ALB)
+Docker image: nginx:latest
+Deployed Using:
+
+Infrastructure as Code (IaC) via Terraform
+Manual Docker image push using PowerShell
 
 ![NGINX Running](nginx2.jpg)
